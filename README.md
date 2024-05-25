@@ -9,4 +9,5 @@ Includes Multiple AI's
   * perfect - never loses
   * aggressive - always plays next to one of its previous moves
   * passive - always plays next to one of its opponent's moves
+    
 and pvp mode.
