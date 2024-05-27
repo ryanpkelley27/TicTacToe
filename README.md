@@ -6,8 +6,7 @@ A simple command line TicTacToe game.
 
 Includes Multiple AI's
   * random - Completely random
-  * perfect - never loses
-  * aggressive - always plays next to one of its previous moves
-  * passive - always plays next to one of its opponent's moves
+  * perfect - Never loses
+  * simple - Finds winning moves and blocks losing moves, otherwise random
     
 and pvp mode.
