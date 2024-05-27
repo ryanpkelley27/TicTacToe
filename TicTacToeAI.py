@@ -293,8 +293,9 @@ p2_get_func = get_move_human    #second get move function
 #--------------------------------------------------------------------------------------------------------------------
 scores = {"X":0,"O":0}#number of games won(doesn't count ties)
 games = 0#number of games played
+print("Playing "+str(MAX_GAMES)+" games.")
 
-#loop until max number of games reached
+#loop until max number of games is reached
 while True:
     #get move
     if player == PLAYER_1:
