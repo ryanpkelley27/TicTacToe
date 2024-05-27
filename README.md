@@ -1,5 +1,5 @@
 # TicTacToe
-Simple TicTacToe Game/AI
+Rough and quick TicTacToe Game/AI
 
 
 A simple command line TicTacToe game.
