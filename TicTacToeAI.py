@@ -5,8 +5,16 @@ BOARD_WIDTH = 3
 BOARD_HEIGHT = 3
 PLAYER_1 = "X"
 PLAYER_2 = "O"
-#MAX_SCORE = 10
+#--------------------------------------------------------------------------------------------------------------------
+#options are:
+#               get_move_perfect
+#               get_move_human
+#               get_move_simple
+#               get_move_random
+p1_get_func = get_move_simple  #first get move function
+p2_get_func = get_move_human   #second get move function
 MAX_GAMES = 6
+#--------------------------------------------------------------------------------------------------------------------
 
 #takes nothing
 #returns list of lists of size BOARD_WIDTH, BOARD_HEIGHT
@@ -282,15 +290,6 @@ print_board(board)
 
 #set up game control variables
 player = PLAYER_1#current player symbol
-#--------------------------------------------------------------------------------------------------------------------
-#options are:
-#               get_move_perfect
-#               get_move_human
-#               get_move_simple
-#               get_move_random
-p1_get_func = get_move_simple   #first get move function
-p2_get_func = get_move_human    #second get move function
-#--------------------------------------------------------------------------------------------------------------------
 scores = {"X":0,"O":0}#number of games won(doesn't count ties)
 games = 0#number of games played
 print("Playing "+str(MAX_GAMES)+" games.")
